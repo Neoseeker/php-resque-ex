@@ -1,11 +1,15 @@
 {
-	"name": "kamisama/php-resque-ex",
+	"name": "neoseeker/php-resque-ex",
 	"type": "library",
 	"description": "Redis backed library for creating background jobs and processing them later. PHP port based on resque for Ruby.",
 	"keywords": ["job", "background", "redis", "resque", "queue", "php"],
-	"homepage": "http://www.github.com/kamisama/php-resque-ex/",
+	"homepage": "http://www.github.com/neoseeker/php-resque-ex/",
 	"license": "MIT",
 	"authors": [
+		{
+			"name": "Catherine Koo",
+			"email": "catherinek@neoseeker.com"
+		},
 		{
 			"name": "Wan Chen",
 			"email": "kami@kamisama.me",
@@ -18,7 +22,6 @@
 	],
 	"require": {
 		"php": ">=5.3.0",
-		"ext-pcntl": "*",
 		"monolog/monolog": ">=1.2.0",
 		"kamisama/monolog-init": ">=0.1.1"
 	},
@@ -32,8 +35,8 @@
 	},
 	"support": {
 		"email": "kami@kamisama.me",
-		"issues": "https://github.com/kamisama/php-resque-ex/issues",
-		"source": "https://github.com/kamisama/php-resque-ex"
+		"issues": "https://github.com/neoseeker/php-resque-ex/issues",
+		"source": "https://github.com/neoseeker/php-resque-ex"
 	},
 	"bin": [
 		"bin/resque"
